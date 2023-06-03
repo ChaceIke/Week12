@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP Wk 11</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body class="container">
+    <h1 class="text text-center text-danger display-2">City List</h1>
+
+    <form id="city-form">
+
+        <input type="hidden" id="name-input">
+
+        <div class="form-group">
+            <label for="name" class="text text-danger">Name</label>
+            <input type="text" class="form-control" placeholder="Name" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="city-name" class="text text-danger">Favorite City</label>
+            <input type="text" class="form-control" placeholder="City (i.e. New York, Las Vegas, etc.)" id="city-name" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="form-button">Submit</button>
+    </form>
+
+    <br>
+
+    <form id="update-form">
+        
+    </form>
+
+    <table class="table table-hover table-dark" id="city-table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Favorite City</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody id="new-rows-here">
+
+        </tbody>
+    </table>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="appAttempt2.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80");
+    background-size: cover;
+    background-color: black;
+}
+
+button {
+    margin-top: 17px;
+}
+.form-group {
+    margin-top: 5px;
+}
+
+#update-button {
+    margin-bottom: 20px;
+}
